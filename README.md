@@ -6,7 +6,7 @@ O desafio proposto é criar um classificador de nível de herói. Para isso, for
 
 Em seguida, utiliza-se uma estrutura de decisão para comparar o valor da XP com os valores definidos para cada nível. Se a XP for menor que 1.000, o herói está no nível de Ferro. Se a XP estiver entre 1.001 e 2.000, o herói está no nível de Bronze. E assim por diante.
 
-Ao final, é exida uma mensagem com o nome do herói e o seu nível.
+Ao final, é exibida uma mensagem com o nome do herói e o seu nível.
 
 _____
 
