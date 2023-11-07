@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/espada.png" type="image/x-icon">
+    <script defer src="script.js"></script>
+    <title>NÍVEL DE HERÓI</title>
+</head>
+<body>       
+    <div id="titulo">
+        <p>Verifique o Nível do seu Herói</p>
+    </div>      
+    <form id="form-heroi" onsubmit="onFormSubmit(event)">
+        <section id="dados">
+            <div id="nome">
+                <label for="nome">Digite o nome do seu herói:</label>
+                <br>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div id="xp">
+                <label for="xp">Digite aqui o seu nível de experiência - XP:</label>
+                <br>
+                <input type="number" name="xp" id="xp">
+            </div>
+            <button id="btn-calcular">ENVIAR</button>
+        </section>  
+    </form>
+    <section id="resultado">
+        <p>CONFIRA AQUI A CLASSIFICAÇÃO DO SEU HERÓI:</p>
+        <p id="classificacao">Resposta:</p>
+    </section>
+</body>
+<footer>
+    <p> !-- SAIBA QUAL O NÍVEL DO SEU HERÓI --!</p>
+</footer>
+</html>
